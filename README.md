@@ -116,7 +116,7 @@ Aadhaar-based authentication (optional)
 Blockchain for transparent subsidy tracking (future phase)
 <li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li>
 Phase 1: Foundation (Months 1-3)
-![alt text](image-1.png)
+<img src="image.png" >
 ┌─────────────────────────────────────────────────────────┐
 │                    User Research                         │
 │  ┌──────────┐    ┌──────────┐    ┌──────────┐          │
