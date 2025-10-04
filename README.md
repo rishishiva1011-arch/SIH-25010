@@ -117,40 +117,6 @@ Blockchain for transparent subsidy tracking (future phase)
 <li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li>
 Phase 1: Foundation (Months 1-3)
 <img src="image.png" >
-┌─────────────────────────────────────────────────────────┐
-│                    User Research                         │
-│  ┌──────────┐    ┌──────────┐    ┌──────────┐          │
-│  │ Farmer   │    │Community │    │Extension │          │
-│  │Interviews│───▶│ Surveys  │───▶│ Officer  │          │
-│  │  n=500   │    │  n=2000  │    │Workshops │          │
-│  └──────────┘    └──────────┘    └──────────┘          │
-│         │                                                │
-│         ▼                                                │
-│  ┌──────────────────────────────────┐                   │
-│  │   Requirements Documentation     │                   │
-│  │ • Priority features ranking      │                   │
-│  │ • Language preferences           │                   │
-│  │ • Connectivity patterns          │                   │
-│  └──────────────────────────────────┘                   │
-└─────────────────────────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────┐
-│              Data Collection & Training                  │
-│  ┌────────────┐    ┌────────────┐    ┌────────────┐    │
-│  │ Crop Image │    │ Historical │    │ Soil Test  │    │
-│  │  Database  │───▶│   Yield    │───▶│   Data     │    │
-│  │  50K+ imgs │    │   Records  │    │ 100K plots │    │
-│  └────────────┘    └────────────┘    └────────────┘    │
-│         │                                                │
-│         ▼                                                │
-│  ┌──────────────────────────────────┐                   │
-│  │    ML Model Development          │                   │
-│  │ • Disease classification: 95%    │                   │
-│  │ • Crop recommendation: 88%       │                   │
-│  │ • Yield prediction: MAE < 15%    │                   │
-│  └──────────────────────────────────┘                   │
-└─────────────────────────────────────────────────────────┘
 
 Phase 2: MVP Development (Months 4-6)
 Build core features:
@@ -169,27 +135,7 @@ Iterative improvements based on real usage
 Network resilience testing (2G/3G/4G conditions)
 
 Phase 3: Feature Expansion (Months 7-9)
-         ┌──────────────────────────┐
-         │   Enhanced Features      │
-         └───────────┬──────────────┘
-                     │
-         ┌───────────┼───────────┐
-         │           │           │
-         ▼           ▼           ▼
-   ┌─────────┐ ┌─────────┐ ┌─────────┐
-   │ Market  │ │ Soil    │ │ 22 Lang │
-   │ Prices  │ │ Health  │ │ Support │
-   │ Module  │ │ Monitor │ │ Added   │
-   └─────────┘ └─────────┘ └─────────┘
-         │           │           │
-         └───────────┼───────────┘
-                     │
-                     ▼
-         ┌───────────────────────┐
-         │   Beta Testing        │
-         │   500 farmers         │
-         │   10 districts        │
-         └───────────────────────┘
+![alt text](image-1.png)
 
 Phase 4: Scale & Integration (Months 10-12)
 Government API integrations (PM-KISAN, Soil Health Card)
@@ -199,51 +145,7 @@ Community feature rollout
 Deployment across multiple states
 
 Implementation Workflow:
-Farmer Opens App
-      ↓
-┌─────────────────┐
-│ Voice Greeting  │ 
-│ in Local Lang   │
-└────────┬────────┘
-         │
-         ↓
-┌─────────────────────────────────┐
-│ Context Gathering               │
-│ • Location (GPS + manual)       │
-│ • Land size                     │
-│ • Current crop (if any)         │
-│ • Last season experience        │
-└────────┬────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────┐
-│ AI Processing                   │
-│ ┌─────────────────────────────┐ │
-│ │ Soil Data Retrieved         │ │
-│ │ Weather Forecast Fetched    │ │
-│ │ ML Model Inference          │ │
-│ │ Local Success Cases Matched │ │
-│ └─────────────────────────────┘ │
-└────────┬────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────┐
-│ Personalized Recommendations    │
-│ • Top 3 crop choices with ROI   │
-│ • Sowing calendar               │
-│ • Input requirements            │
-│ • Expected yield & profit       │
-│ Voice + Visual + Text           │
-└────────┬────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────┐
-│ Continuous Monitoring           │
-│ • Weekly voice check-ins        │
-│ • Weather alerts via WhatsApp   │
-│ • Pest outbreak warnings        │
-│ • Market price notifications    │
-└─────────────────────────────────┘
+![alt text](image-2.png)
 
 Quality Assurance Process
 Agronomic Validation: All recommendations reviewed by certified agricultural scientists
