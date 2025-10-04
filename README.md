@@ -116,6 +116,7 @@ Aadhaar-based authentication (optional)
 Blockchain for transparent subsidy tracking (future phase)
 <li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li>
 Phase 1: Foundation (Months 1-3)
+![alt text](image-1.png)
 ┌─────────────────────────────────────────────────────────┐
 │                    User Research                         │
 │  ┌──────────┐    ┌──────────┐    ┌──────────┐          │
@@ -168,7 +169,7 @@ Iterative improvements based on real usage
 Network resilience testing (2G/3G/4G conditions)
 
 Phase 3: Feature Expansion (Months 7-9)
-┌──────────────────────────┐
+         ┌──────────────────────────┐
          │   Enhanced Features      │
          └───────────┬──────────────┘
                      │
@@ -201,7 +202,7 @@ Implementation Workflow:
 Farmer Opens App
       ↓
 ┌─────────────────┐
-│ Voice Greeting  │ "Namaste! Main KisanSathi hun"
+│ Voice Greeting  │ 
 │ in Local Lang   │
 └────────┬────────┘
          │
